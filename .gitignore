@@ -2,5 +2,7 @@ node_modules
 dist
 *.js.map
 logs/
+storage/ca/*
+!storage/ca/.gitkeep
 storage/certs/*
 !storage/certs/.gitkeep
