@@ -19,7 +19,7 @@ openssl req -x509 -new -nodes \
     -sha256 -days 365 \
     -reqexts v3_req -extensions v3_ca \
     -out storage/ca/data-proxy.crt \
-    -subj "/C=BR/ST=PR/L=Seyfland/O=data-proxy/CN=data-proxy"
+    -subj "/C=BR/ST=SP/L=Octrys/O=data-proxy/CN=data-proxy"
 ```
 
 Regenerating the CA invalidates every previously issued leaf cert, so it must
