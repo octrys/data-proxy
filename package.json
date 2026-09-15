@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint .",
-    "dev": "nodemon"
+    "rom:dev": "nodemon --exec ts-node src/services/rom/index.ts",
+    "rom:run": "node dist/services/rom/index.js"
   },
   "repository": {
     "type": "git",
