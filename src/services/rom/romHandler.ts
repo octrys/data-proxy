@@ -5,5 +5,5 @@ import type { InterceptHandler } from "../../libraries";
 // rewriting can be added later by implementing onResponse and switching the
 // proxy to intercept mode in index.ts.
 export class RomHandler implements InterceptHandler {
-    public readonly ignoreRequest = /(UnCheater|gameguard)/;
+    public readonly ignoreRequest = /(UnCheater|gameguard|\.dat$|\.mp4$)/;
 }
